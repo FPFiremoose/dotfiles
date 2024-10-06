@@ -1,0 +1,22 @@
+Hyprland configs // ~/.config/hypr
+	\_ Hyprland 	hyprland.conf
+	\_ Hyprpaper 	hyprpaper.conf
+
+Kitty configs // ~/.config/kitty
+
+Waybar configs // ~/.config/waybar
+
+Btop configs // ~/.config/btop
+
+Keyd replaces capslock with left meta (windows) key
+// /etc/keyd/default.conf
+	if not working, run sudo systemctl start keyd
+
+ranger for terminal file browsing
+nautilus for gui browsing
+neovim for text/code editing
+	\_Nvim kickstar
+	\_Primeagen keybinds
+Vimium extension in firefox for vim-style bindings
+
+easygit (eg) as a git wrapper

@@ -1,0 +1,8 @@
+# GIMP gimp-text-tool options
+
+(palette "Color History")
+(font "Source Code Pro")
+(font-size 80)
+(hint-style none)
+
+# end of gimp-text-tool options
