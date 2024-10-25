@@ -328,8 +328,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="1055.9999736"
+       y="1266.30070220915"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -604,9 +604,16 @@
        append_extension="1"
        path="">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
          id="defaultxdpi" />
+      <group
+         id="batchexportarea"
+         value="layer" />
+      <group
+         id="defaultdpi"
+         value="300" />
     </group>
     <group
        id="save_as"
@@ -624,7 +631,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/brandon/Downloads/timesheets/" />
     <group
        id="import"
        enable_preview="1"
@@ -632,7 +639,8 @@
        ask="1"
        ask_svg="1"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -945,7 +953,11 @@
        unitType="2" />
     <group
        id="boot"
-       theme="colorful" />
+       theme="colorful">
+      <group
+         id="shown"
+         ver1.3.2="1" />
+    </group>
     <group
        id="rendering" />
     <group
@@ -960,10 +972,10 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000">
+     style="fill:#000000;font-size:166.66666667px;opacity:0.33425982">
     <group
        width="752"
-       height="442"
+       height="694"
        x="0"
        y="0"
        maximized="1"
@@ -1087,7 +1099,16 @@
      preferDarkTheme="1"
      darkTheme="1"
      symbolicIcons="1"
-     symbolicDefaultBaseColors="1"
+     symbolicDefaultBaseColors="0"
      symbolicDefaultHighColors="0"
-     syntax-color-theme="inkscape-dark" />
+     syntax-color-theme="inkscape-dark"
+     gtkTheme="Adwaita"
+     iconTheme="multicolor">
+    <group
+       id="multicolor"
+       symbolicBaseColor="3958107135"
+       symbolicSuccessColor="10029823"
+       symbolicWarningColor="4279865599"
+       symbolicErrorColor="10086143" />
+  </group>
 </inkscape>

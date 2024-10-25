@@ -11,8 +11,9 @@
     (size 640 480))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 22 52)
-    (size 1322 694)
+    (position 647 52)
+    (size 626 676)
+    (monitor 1)
     (open-on-exit)
     (aux-info
         (left-docks-width "188")
