@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="last_folder" mtime="1729895720" type="string">
-		<stringvalue>/home/brandon/projects/rogers-quotes/clearview-coop</stringvalue>
+	<entry name="last_folder" mtime="1730216128" type="string">
+		<stringvalue>/home/brandon/projects/rogers-quotes/agrihub</stringvalue>
 	</entry>
 </gconf>
