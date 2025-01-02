@@ -1339,6 +1339,30 @@
   <resource identifier="3270 Nerd Font Propo" checksum="(null)">
   </resource>
 
+  <resource identifier="Bitstream Vera Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Bitstream Vera Sans Oblique" checksum="(null)">
+  </resource>
+
   <resource identifier="C059" checksum="(null)">
   </resource>
 

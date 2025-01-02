@@ -274,7 +274,14 @@ require("lazy").setup({
 	-- Then, because we use the `config` key, the configuration only runs
 	-- after the plugin has been loaded:
 	--  config = function() ... end
-
+	{
+		"jiaoshijie/undotree",
+		dependencies = "nvim-lua/plenary.nvim",
+		config = true,
+		keys = { -- load the plugin only when using it's keybinding:
+			{ "<F4>", "<cmd>lua require('undotree').toggle()<cr>" },
+		},
+	},
 	{
 		"ThePrimeagen/harpoon",
 		branch = "harpoon2",
@@ -298,6 +305,23 @@ require("lazy").setup({
 		end,
 	},
 
+	{
+		"folke/twilight.nvim",
+		opts = {
+			-- your configuration comes here
+			-- or leave it empty to use the default settings
+			-- refer to the configuration section below
+		},
+		{
+			"MeanderingProgrammer/render-markdown.nvim",
+			dependencies = { "nvim-treesitter/nvim-treesitter", "echasnovski/mini.nvim" }, -- if you use the mini.nvim suite
+			-- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+			-- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+			---@module 'render-markdown'
+			---@type render.md.UserConfig
+			opts = {},
+		},
+	},
 	{ -- Useful plugin to show you pending keybinds.
 		"folke/which-key.nvim",
 		event = "VimEnter", -- Sets the loading event to 'VimEnter'
@@ -1008,7 +1032,6 @@ vim.o.statuscolumn = "%s %l %r"
 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+-- Twilight Toggle Keybind
 
-vim.keymap.set("x", "<leader>p", '"_dP')
--- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et
+vim.keymap.set("n", "<F5>", "<cmd>Twilight<CR>")

@@ -25,3 +25,7 @@ hyprlock for lock screen
 qutebrowser for vim-inspired keyboard-based browsing
 pdfutils for pdfmerge and pdfmod
 simple-scan to detect and interface with epson scanner (GNOME document-scanner works too)
+
+light for backlight control
+amixer for sound system
+nmcli for network
