@@ -1,8 +1,9 @@
 # GIMP gimp-text-tool options
 
 (palette "Color History")
-(font "Source Code Pro")
-(font-size 80)
+(font "Aptos Bold")
+(font-size 33)
 (hint-style none)
+(justify center)
 
 # end of gimp-text-tool options

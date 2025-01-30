@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="last_folder" mtime="1734058736" type="string">
-		<stringvalue>/home/brandon/projects/benoit-global/2406-personal_brand</stringvalue>
+	<entry name="show_bookmarks" mtime="1737744980" type="bool" value="false"/>
+	<entry name="last_folder" mtime="1738178870" type="string">
+		<stringvalue>/home/brandon/Downloads/wc-scans</stringvalue>
 	</entry>
 </gconf>

@@ -302,7 +302,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -631,7 +631,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/brandon/Downloads/rogers" />
+       path="/home/brandon/Downloads/timesheets/" />
     <group
        id="import"
        enable_preview="1"
@@ -981,8 +981,8 @@
      id="desktop"
      style="fill:#ffffff;font-size:40px;stroke-width:1.333;-inkscape-font-specification:'Ted Next Bold';font-family:'Ted Next';letter-spacing:0px;font-weight:bold">
     <group
-       width="752"
-       height="694"
+       width="1891"
+       height="1526"
        x="0"
        y="0"
        maximized="1"

@@ -4,8 +4,8 @@
 (dynamics "Dynamics Off")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
-(brush-size 17)
+(brush-size 96)
 (brush-spacing 0.01)
-(brush-hardness 0.5)
+(brush-force 0.77000000000000002)
 
 # end of gimp-paintbrush-tool options

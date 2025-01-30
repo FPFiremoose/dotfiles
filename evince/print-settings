@@ -1,0 +1,35 @@
+[Print Settings]
+evince-print-setting-page-autorotate=true
+cups-job-priority=50
+cups-number-up=1
+evince-print-setting-page-size=false
+cover-before=
+evince-print-setting-page-scale=1
+print-at-time=
+output-bin=face-down
+cups-sides=one-sided
+cover-after=
+print-at=now
+printer=Kyocera_TASKalfa_2554ci
+cups-output-bin=face-down
+cups-ColorModel=RGB
+default-source=Tray1
+cups-Duplex=None
+media-type=Stationery
+cups-MediaType=Stationery
+duplex=simplex
+cups-OutputBin=FaceDown
+cups-InputSlot=Tray1
+cups-cupsPrintQuality=Normal
+cups-job-sheets=none,none
+
+[Page Setup]
+PPDName=Letter
+DisplayName=US Letter
+Width=215.89999389648438
+Height=279.39999389648438
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

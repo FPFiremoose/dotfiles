@@ -1,14 +1,14 @@
-Extension "XFIG Input" failed to load because a dependency was not met.
+Extension "Formula (typst)" failed to load because a dependency was not met.
 Dependency:
 	type: executable
 	location: path
-	string: fig2dev
+	string: typst
 
-Extension "Formula (pdflatex)" failed to load because a dependency was not met.
+Extension "Export to PDF via Scribus" failed to load because a dependency was not met.
 Dependency:
 	type: executable
 	location: path
-	string: pdflatex
+	string: scribus
 
 Extension "Optimized PNG" failed to load because a dependency was not met.
 Dependency:
@@ -16,9 +16,15 @@ Dependency:
 	location: path
 	string: optipng
 
-Extension "Export to PDF via Scribus" failed to load because a dependency was not met.
+Extension "Formula (pdflatex)" failed to load because a dependency was not met.
 Dependency:
 	type: executable
 	location: path
-	string: scribus
+	string: pdflatex
+
+Extension "XFIG Input" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: fig2dev
 
